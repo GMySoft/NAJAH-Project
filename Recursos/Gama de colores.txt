@@ -1,0 +1,13 @@
+Gama de colores
+*Logo:
+	Azul:#0F1048
+	Naranja:#FA8718
+	Gris:#3F3F41
+	Azul central:#1C436F
+*Azules:
+	#B5C1E8
+	#C7D9FF
+	#D4DBFF
+*Grices:
+	#4A4A4D
+	#88888C
