@@ -1,0 +1,57 @@
+@font-face{
+	font-family: "Monserrat";
+	src: url("/fonts/Montserrat-Regular.otf") format("otf");
+}
+
+#header{
+	margin: 0 auto;
+	padding: 7px;
+	background-color: #D4DBFF;
+	display: flex;
+}
+
+#logo{
+	width: 20%;
+	height: 20%;
+}
+
+.navbar{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: .4em;
+}
+
+li.border-simple{
+	
+}
+
+li.border-simple:hover{
+	background-color: #3F3F41;
+}
+
+li.border-simple{
+	transition: background-color 0.3s linear 0.1s;
+}
+
+a.nav-link{
+	color: #3F3F41;
+}
+
+a.nav-link:hover{
+	color: #FFF;
+}
+
+a.nav-link{
+	transition: color 0.3s linear 0.1s;
+}
+
+div.section-text{
+	margin-top: .4em;
+	margin-left: 65%;
+	float: center;
+}
+
+#bold-text{
+
+}
