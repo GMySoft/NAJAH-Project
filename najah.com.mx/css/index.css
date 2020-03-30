@@ -3,6 +3,12 @@
 	src: url("/fonts/Montserrat-Regular.otf") format("otf");
 }
 
+/* ID's section */
+
+#bold-text{
+
+}
+
 #header{
 	margin: 0 auto;
 	padding: 7px;
@@ -10,10 +16,24 @@
 	display: flex;
 }
 
+#ico-style{
+	filter: invert(100%);
+}
+
 #logo{
 	width: 20%;
 	height: 20%;
 }
+
+#footer{
+	background-color: #3F3F41;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	width: 100%; 
+}
+
+/* Classes section */
 
 .navbar{
 	position: absolute;
@@ -52,6 +72,49 @@ div.section-text{
 	float: center;
 }
 
-#bold-text{
+div.footer-nav{
+	
+}
 
+a.white-link{
+	color: #FFF;
+}
+
+a.white-link:hover{
+	color: #FA8718;;
+	text-decoration: none;	
+}
+
+.footer-info{
+	position: fixed;
+	right: 0;
+	width: 200px;
+}
+
+div.center-content{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+
+div.image-content{
+	background: #3F3F41;
+	border-radius: 5px;
+	margin-top: 0.8em;
+	padding-top: 2px;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+div.image-content:hover{
+	background: #FA8718;
+	border-radius: 5px;
+}
+
+div.image-content{
+	transition: background 0.3s linear 0.1s;
 }
